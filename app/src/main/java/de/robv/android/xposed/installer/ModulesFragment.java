@@ -69,9 +69,11 @@ import de.robv.android.xposed.installer.util.ModuleUtil.ModuleListener;
 import de.robv.android.xposed.installer.util.NavUtil;
 import de.robv.android.xposed.installer.util.RepoLoader;
 import de.robv.android.xposed.installer.util.ThemeUtil;
+import info.loveai.peach.installer.R;
+import info.loveai.peach.installer.XposedApp;
 
 import static android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS;
-import static de.robv.android.xposed.installer.XposedApp.WRITE_EXTERNAL_PERMISSION;
+import static info.loveai.peach.installer.XposedApp.WRITE_EXTERNAL_PERMISSION;
 
 public class ModulesFragment extends ListFragment implements ModuleListener {
     public static final String SETTINGS_CATEGORY = "de.robv.android.xposed.category.MODULE_SETTINGS";

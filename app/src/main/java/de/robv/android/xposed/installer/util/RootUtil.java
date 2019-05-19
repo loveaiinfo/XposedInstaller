@@ -14,8 +14,8 @@ import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
 
-import de.robv.android.xposed.installer.R;
-import de.robv.android.xposed.installer.XposedApp;
+import info.loveai.peach.installer.R;
+import info.loveai.peach.installer.XposedApp;
 import de.robv.android.xposed.installer.installation.FlashCallback;
 import eu.chainfire.libsuperuser.Shell;
 import eu.chainfire.libsuperuser.Shell.OnCommandResultListener;

@@ -10,7 +10,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-import de.robv.android.xposed.installer.XposedApp;
+import info.loveai.peach.installer.XposedApp;
 
 public class AssetUtil {
     public static final File BUSYBOX_FILE = new File(XposedApp.getInstance().getCacheDir(), "busybox-xposed");

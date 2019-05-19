@@ -31,6 +31,8 @@ import de.robv.android.xposed.installer.util.RepoLoader;
 import de.robv.android.xposed.installer.util.ThemeUtil;
 import de.robv.android.xposed.installer.util.chrome.LinkTransformationMethod;
 import de.robv.android.xposed.installer.widget.DownloadView;
+import info.loveai.peach.installer.R;
+import info.loveai.peach.installer.XposedApp;
 
 public class DownloadDetailsVersionsFragment extends ListFragment {
     private static VersionsAdapter sAdapter;

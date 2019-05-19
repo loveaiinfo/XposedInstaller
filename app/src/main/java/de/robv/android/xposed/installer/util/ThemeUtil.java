@@ -4,8 +4,8 @@ import android.content.Context;
 import android.content.res.Resources.Theme;
 import android.content.res.TypedArray;
 
-import de.robv.android.xposed.installer.R;
-import de.robv.android.xposed.installer.XposedApp;
+import info.loveai.peach.installer.R;
+import info.loveai.peach.installer.XposedApp;
 import de.robv.android.xposed.installer.XposedBaseActivity;
 
 public final class ThemeUtil {

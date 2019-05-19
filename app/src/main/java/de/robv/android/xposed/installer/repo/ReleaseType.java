@@ -1,6 +1,6 @@
 package de.robv.android.xposed.installer.repo;
 
-import de.robv.android.xposed.installer.R;
+import info.loveai.peach.installer.R;
 
 public enum ReleaseType {
 	STABLE(R.string.reltype_stable),

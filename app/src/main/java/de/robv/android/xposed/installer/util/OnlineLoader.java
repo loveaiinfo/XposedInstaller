@@ -6,7 +6,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.support.annotation.CallSuper;
 
-import de.robv.android.xposed.installer.XposedApp;
+import info.loveai.peach.installer.XposedApp;
 
 public abstract class OnlineLoader<T> extends Loader<T> {
     protected SharedPreferences mPref = XposedApp.getPreferences();

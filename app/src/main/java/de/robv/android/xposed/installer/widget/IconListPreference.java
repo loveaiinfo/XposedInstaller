@@ -35,7 +35,7 @@ import android.widget.ListAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.robv.android.xposed.installer.R;
+import info.loveai.peach.installer.R;
 
 public class IconListPreference extends ListPreference {
 

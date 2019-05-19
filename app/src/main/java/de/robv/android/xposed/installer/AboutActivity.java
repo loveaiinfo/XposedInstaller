@@ -21,6 +21,7 @@ import de.psdev.licensesdialog.model.Notice;
 import de.psdev.licensesdialog.model.Notices;
 import de.robv.android.xposed.installer.util.NavUtil;
 import de.robv.android.xposed.installer.util.ThemeUtil;
+import info.loveai.peach.installer.R;
 
 public class AboutActivity extends XposedBaseActivity {
 

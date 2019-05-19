@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import de.robv.android.xposed.installer.util.NavUtil;
 import de.robv.android.xposed.installer.util.ThemeUtil;
+import info.loveai.peach.installer.R;
 
 public class SupportActivity extends XposedBaseActivity {
     @Override

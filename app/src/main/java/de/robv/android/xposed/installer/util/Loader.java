@@ -5,7 +5,7 @@ import android.support.v4.widget.SwipeRefreshLayout;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-import de.robv.android.xposed.installer.XposedApp;
+import info.loveai.peach.installer.XposedApp;
 
 public abstract class Loader<T> implements SwipeRefreshLayout.OnRefreshListener {
     protected final String CLASS_NAME = getClass().getSimpleName();

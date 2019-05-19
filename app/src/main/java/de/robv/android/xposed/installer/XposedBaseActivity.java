@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.WindowManager;
 
 import de.robv.android.xposed.installer.util.ThemeUtil;
+import info.loveai.peach.installer.R;
 
 public abstract class XposedBaseActivity extends AppCompatActivity {
     public int mTheme = -1;

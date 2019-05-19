@@ -31,8 +31,8 @@ import java.util.TreeMap;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
-import de.robv.android.xposed.installer.R;
-import de.robv.android.xposed.installer.XposedApp;
+import info.loveai.peach.installer.R;
+import info.loveai.peach.installer.XposedApp;
 import de.robv.android.xposed.installer.util.DownloadsUtil.SyncDownloadInfo;
 import de.robv.android.xposed.installer.util.InstallZipUtil.XposedProp;
 import de.robv.android.xposed.installer.util.InstallZipUtil.ZipCheckResult;

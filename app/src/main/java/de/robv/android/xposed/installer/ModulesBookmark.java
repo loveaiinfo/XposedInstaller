@@ -30,6 +30,7 @@ import de.robv.android.xposed.installer.repo.ModuleVersion;
 import de.robv.android.xposed.installer.util.DownloadsUtil;
 import de.robv.android.xposed.installer.util.RepoLoader;
 import de.robv.android.xposed.installer.util.ThemeUtil;
+import info.loveai.peach.installer.R;
 
 public class ModulesBookmark extends XposedBaseActivity {
 

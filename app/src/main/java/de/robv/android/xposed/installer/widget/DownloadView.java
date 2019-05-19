@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import de.robv.android.xposed.installer.R;
+import info.loveai.peach.installer.R;
 import de.robv.android.xposed.installer.util.DownloadsUtil;
 import de.robv.android.xposed.installer.util.DownloadsUtil.DownloadFinishedCallback;
 import de.robv.android.xposed.installer.util.DownloadsUtil.DownloadInfo;

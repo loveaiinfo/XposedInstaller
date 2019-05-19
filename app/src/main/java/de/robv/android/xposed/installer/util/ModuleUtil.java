@@ -22,8 +22,8 @@ import java.util.Map;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 import de.robv.android.xposed.installer.ModulesFragment;
-import de.robv.android.xposed.installer.R;
-import de.robv.android.xposed.installer.XposedApp;
+import info.loveai.peach.installer.R;
+import info.loveai.peach.installer.XposedApp;
 import de.robv.android.xposed.installer.repo.ModuleVersion;
 import de.robv.android.xposed.installer.repo.RepoDb;
 

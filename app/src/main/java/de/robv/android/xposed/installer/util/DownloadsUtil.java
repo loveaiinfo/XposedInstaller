@@ -35,8 +35,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import de.robv.android.xposed.installer.R;
-import de.robv.android.xposed.installer.XposedApp;
+import info.loveai.peach.installer.R;
+import info.loveai.peach.installer.XposedApp;
 import de.robv.android.xposed.installer.repo.Module;
 import de.robv.android.xposed.installer.repo.ModuleVersion;
 import de.robv.android.xposed.installer.repo.ReleaseType;

@@ -35,7 +35,10 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Calendar;
 
-import static de.robv.android.xposed.installer.XposedApp.WRITE_EXTERNAL_PERMISSION;
+import info.loveai.peach.installer.R;
+import info.loveai.peach.installer.XposedApp;
+
+import static info.loveai.peach.installer.XposedApp.WRITE_EXTERNAL_PERMISSION;
 
 public class LogsFragment extends Fragment {
 

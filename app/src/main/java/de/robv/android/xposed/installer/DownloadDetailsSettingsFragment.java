@@ -14,6 +14,7 @@ import java.util.Map;
 import de.robv.android.xposed.installer.repo.Module;
 import de.robv.android.xposed.installer.util.PrefixedSharedPreferences;
 import de.robv.android.xposed.installer.util.RepoLoader;
+import info.loveai.peach.installer.R;
 
 public class DownloadDetailsSettingsFragment extends PreferenceFragment {
     private DownloadDetailsActivity mActivity;

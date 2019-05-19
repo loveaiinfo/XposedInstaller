@@ -15,8 +15,8 @@ import android.text.util.Linkify;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 
-import de.robv.android.xposed.installer.R;
-import de.robv.android.xposed.installer.XposedApp;
+import info.loveai.peach.installer.R;
+import info.loveai.peach.installer.XposedApp;
 
 public final class NavUtil {
 

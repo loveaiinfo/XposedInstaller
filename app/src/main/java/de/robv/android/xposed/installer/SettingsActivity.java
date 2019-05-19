@@ -22,6 +22,8 @@ import java.io.IOException;
 
 import de.robv.android.xposed.installer.util.RepoLoader;
 import de.robv.android.xposed.installer.util.ThemeUtil;
+import info.loveai.peach.installer.R;
+import info.loveai.peach.installer.XposedApp;
 
 public class SettingsActivity extends XposedBaseActivity implements FolderChooserDialog.FolderCallback {
 

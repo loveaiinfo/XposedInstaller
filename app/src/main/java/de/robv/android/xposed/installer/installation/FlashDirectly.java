@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
-import de.robv.android.xposed.installer.XposedApp;
+import info.loveai.peach.installer.XposedApp;
 import de.robv.android.xposed.installer.util.AssetUtil;
 import de.robv.android.xposed.installer.util.FrameworkZips;
 import de.robv.android.xposed.installer.util.InstallZipUtil.ZipCheckResult;

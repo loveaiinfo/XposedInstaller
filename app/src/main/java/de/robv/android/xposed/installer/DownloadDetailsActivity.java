@@ -31,6 +31,7 @@ import de.robv.android.xposed.installer.util.ModuleUtil.InstalledModule;
 import de.robv.android.xposed.installer.util.ModuleUtil.ModuleListener;
 import de.robv.android.xposed.installer.util.RepoLoader;
 import de.robv.android.xposed.installer.util.ThemeUtil;
+import info.loveai.peach.installer.R;
 
 public class DownloadDetailsActivity extends XposedBaseActivity implements Loader.Listener<RepoLoader>, ModuleListener {
 

@@ -15,6 +15,7 @@ import de.robv.android.xposed.installer.repo.Module;
 import de.robv.android.xposed.installer.repo.RepoParser;
 import de.robv.android.xposed.installer.util.NavUtil;
 import de.robv.android.xposed.installer.util.chrome.LinkTransformationMethod;
+import info.loveai.peach.installer.R;
 
 public class DownloadDetailsFragment extends Fragment {
     private DownloadDetailsActivity mActivity;

@@ -1,10 +1,18 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs{
+        xparser{
+            keyAlias "peach"
+            keyPassword "123456"
+            storeFile file('../peach.keystore')
+            storePassword "123456"
+        }
+    }
     compileSdkVersion 27
 
     defaultConfig {
-        applicationId "de.robv.android.xposed.installer"
+        applicationId "info.loveai.peach.installer"
         minSdkVersion 15
         targetSdkVersion 27
         versionCode 43
@@ -16,9 +24,11 @@ android {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.xparser
         }
         debug {
             pseudoLocalesEnabled true
+            signingConfig signingConfigs.xparser
         }
     }
 }

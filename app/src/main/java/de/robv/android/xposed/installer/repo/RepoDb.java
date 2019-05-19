@@ -13,7 +13,7 @@ import java.io.File;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import de.robv.android.xposed.installer.XposedApp;
+import info.loveai.peach.installer.XposedApp;
 import de.robv.android.xposed.installer.repo.RepoDbDefinitions.InstalledModulesColumns;
 import de.robv.android.xposed.installer.repo.RepoDbDefinitions.InstalledModulesUpdatesColumns;
 import de.robv.android.xposed.installer.repo.RepoDbDefinitions.ModuleVersionsColumns;

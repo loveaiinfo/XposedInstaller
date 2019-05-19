@@ -10,9 +10,9 @@ import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import android.widget.Toast;
 
-import de.robv.android.xposed.installer.R;
+import info.loveai.peach.installer.R;
 import de.robv.android.xposed.installer.WelcomeActivity;
-import de.robv.android.xposed.installer.XposedApp;
+import info.loveai.peach.installer.XposedApp;
 
 public final class NotificationUtil {
     public static final int NOTIFICATION_MODULE_NOT_ACTIVATED_YET = 0;

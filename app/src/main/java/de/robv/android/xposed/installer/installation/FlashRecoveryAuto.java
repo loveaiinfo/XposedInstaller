@@ -6,7 +6,7 @@ import android.os.Parcelable;
 
 import java.io.File;
 
-import de.robv.android.xposed.installer.R;
+import info.loveai.peach.installer.R;
 import de.robv.android.xposed.installer.util.FrameworkZips;
 import de.robv.android.xposed.installer.util.InstallZipUtil.ZipCheckResult;
 import de.robv.android.xposed.installer.util.RootUtil;

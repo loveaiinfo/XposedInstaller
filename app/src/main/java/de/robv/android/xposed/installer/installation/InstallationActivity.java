@@ -28,8 +28,8 @@ import android.widget.TextView;
 
 import java.io.File;
 
-import de.robv.android.xposed.installer.R;
-import de.robv.android.xposed.installer.XposedApp;
+import info.loveai.peach.installer.R;
+import info.loveai.peach.installer.XposedApp;
 import de.robv.android.xposed.installer.XposedBaseActivity;
 import de.robv.android.xposed.installer.util.RootUtil;
 

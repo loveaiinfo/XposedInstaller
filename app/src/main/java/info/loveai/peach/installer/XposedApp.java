@@ -1,4 +1,4 @@
-package de.robv.android.xposed.installer;
+package info.loveai.peach.installer;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -33,10 +33,10 @@ public class XposedApp extends Application implements ActivityLifecycleCallbacks
     public static final String TAG = "XposedInstaller";
 
     @SuppressLint("SdCardPath")
-    private static final String BASE_DIR_LEGACY = "/data/data/de.robv.android.xposed.installer/";
+    private static final String BASE_DIR_LEGACY = "/data/data/info.loveai.peach.installer/";
 
     public static final String BASE_DIR = Build.VERSION.SDK_INT >= 24
-            ? "/data/user_de/0/de.robv.android.xposed.installer/" : BASE_DIR_LEGACY;
+            ? "/data/user_de/0/info.loveai.peach.installer/" : BASE_DIR_LEGACY;
 
     public static final String ENABLED_MODULES_LIST_FILE = XposedApp.BASE_DIR + "conf/enabled_modules.list";
 
